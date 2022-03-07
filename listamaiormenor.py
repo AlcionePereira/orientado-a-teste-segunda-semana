@@ -16,4 +16,8 @@ for c in range(0, 15):
 
 for i, v in enumerate(lista):
     if v == maior:
-        print(f'O maior número digitado foi {maior} na posição {i}')
+        print(f'O maior número digitado foi {maior} na posição {i+1}')
+for i, v in enumerate(lista):
+    if v == menor:
+        print(f'O menor número digitado foi {menor} na posição {i+1}')
+
